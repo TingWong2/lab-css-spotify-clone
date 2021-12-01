@@ -63,8 +63,28 @@ nav a {
 img {
     width: 10% ;
     height: 20% ;
+}
+
+.slogan{
+    width: 900px;
+    height: 400px;
+    position: ;
+    margin: 150px 250px;
+}
+
+#slogan-text{
+    color: white;
+    text-align: center;
+    font-size: 32px;
 
 }
+
+h1{
+    font-size: 65px;
+    color: white;
+    text-align: center;
+}
+
 .box-container{
     display: flex;
     flex-direction: row;
@@ -96,11 +116,13 @@ img {
 }
 
 .main-container h2{
-    position: center;
-
+    text-align: center;
 }
 
-.description-container {
-    background-color:Green #00B172 ;
+.descrption-container{
+    background-color:Green;
 }
-  
+
+.descrption-container  h2,h3 {
+    color: white;
+}
